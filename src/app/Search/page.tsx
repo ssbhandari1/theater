@@ -15,7 +15,7 @@ const SkeletoComponent = () => {
     </Card>
   );
 };
-const page = () => {
+const Page = () => {
   const dispatch = useAppDispatch();
   const router = useRouter();
   const [pageNum, setPageNum] = useState(1);
@@ -95,4 +95,4 @@ const page = () => {
   );
 };
 
-export default page;
+export default Page;

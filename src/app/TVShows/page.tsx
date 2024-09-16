@@ -10,7 +10,7 @@ import {
 } from "@/redux/thunk";
 import React, { useEffect, useState } from "react";
 
-const page = () => {
+const Page = () => {
   const dispatch = useAppDispatch();
   const { trending, loading, error, popular, topRated } = useAppSelector(
     (state) => state.TVData
@@ -71,4 +71,4 @@ const page = () => {
   );
 };
 
-export default page;
+export default Page;
